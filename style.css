@@ -1,5 +1,6 @@
 * {
   font-family: Oxanium;
+  box-sizing: border-box;
 }
 
 .product-img {
@@ -8,10 +9,40 @@
 }
 
 header {
-  background-color: darkgray;
   text-align: center;
+}
+header h1 {
+  font-weight: 800;
 }
 
 .images {
+  text-align: center;
+}
+
+#navigation {
+  position: sticky;
+  top: 0;
+  text-align: center;
+  background-color: black;
+  padding: 0.5rem;
+}
+
+#navigation * {
+  color: white;
+}
+
+#navigation button {
+  color: black;
+}
+
+footer {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.centered {
   text-align: center;
 }
