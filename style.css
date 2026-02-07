@@ -1,0 +1,17 @@
+* {
+  font-family: Oxanium;
+}
+
+.product-img {
+  border: 0.25rem solid black;
+  border-radius: 0.5rem;
+}
+
+header {
+  background-color: darkgray;
+  text-align: center;
+}
+
+.images {
+  text-align: center;
+}
